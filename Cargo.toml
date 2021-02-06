@@ -1,0 +1,15 @@
+[package]
+name = "rust_vst_template"
+version = "0.1.0"
+authors = ["Lucas Hui <huisounds@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+vst = "0.2.1"
+vst_window = "0.1.0"
+raw-window-handle = "0.3.3"
+[lib]
+name = "rustVSTtemplate"
+crate-type = ["cdylib"]
